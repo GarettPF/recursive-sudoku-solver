@@ -9,7 +9,17 @@
 #include "sudoku.h"
 
 int main() {
+	ifstream puzzle;
+	string filename;
+	int board[9][9];
 
+	do { // Get the .txt file from the user and load the puzzle
+		puzzle.clear();
+		cout << "Enter initial sudoku board file: ";
+		cin >> filename;
+		puzzle.open(filename.c_str());
+	} while (puzzle.fail());
+	load_puzzle(board, puzzle);
 
 
 
