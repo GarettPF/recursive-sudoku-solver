@@ -18,8 +18,30 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="sudoku.cpp">
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sudoku.h">
       <Filter>Header Files</Filter>
-    </ClCompile>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="puzzle01.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="puzzle02.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="puzzle03.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="puzzle04.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="puzzle05.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="puzzle06.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>

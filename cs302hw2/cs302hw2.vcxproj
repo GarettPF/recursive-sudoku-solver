@@ -140,7 +140,17 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="sudoku.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sudoku.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="puzzle01.txt" />
+    <Text Include="puzzle02.txt" />
+    <Text Include="puzzle03.txt" />
+    <Text Include="puzzle04.txt" />
+    <Text Include="puzzle05.txt" />
+    <Text Include="puzzle06.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
